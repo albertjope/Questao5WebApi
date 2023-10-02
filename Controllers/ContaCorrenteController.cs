@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Questao5WebApi.Data.Dto;
 using Questao5WebApi.Services.Commands;
+using Questao5WebApi.Services.Queries;
 
 namespace Questao5WebApi.Controllers;
 

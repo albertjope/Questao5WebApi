@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Questao5WebApi.Data.Dto;
 
-namespace Questao5WebApi.Services.Commands;
+namespace Questao5WebApi.Services.Queries;
 
 public class ContaCorrenteGetByIdCommandHandler : IRequestHandler<ContaCorrenteGetByIdCommand, ReadSaldoContaCorrenteDto>
 {
