@@ -8,4 +8,5 @@ public class CreateMovimentacaoDto
     public string? DataMovimento { get; set; }
     public double Valor { get; set; }
     public enumTipoMovimentacao TipoMovimento { get; set; }
+    public Idempotencia Idempotencia { get; set; }
 }
